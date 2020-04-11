@@ -8,3 +8,7 @@ I started off with some very light pseudo-coding, just enough to get started. I 
 John helped me get that segment working which was awesome. I then spent the following 6 hours trying to get local storage to work in a non-redundant way. I couldn't because of my html unfortunately. I decided to just go with the redundant method since I didn't quite feel like scrapping my html and doing dynamic JS again. 
 
 At least not at the moment, I may revisit later for a better grade if this is crap.
+
+EDIT:
+
+I completed local storage! Thanks Ross for the assistance!
