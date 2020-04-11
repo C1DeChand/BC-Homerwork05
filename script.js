@@ -102,39 +102,34 @@ $("#save17").click(function save(){
 
 // Local Storage .getItem functions
 
-$("#textbox9").on("load", function(){
-    var stored9 = localStorage.getItem("text9");
-$("#textbox9").text(stored9)
+$(document).ready(function(){
+
+        var stored9 = localStorage.getItem("text9");
+    $("#textbox9").val(stored9)
+  
+        var stored10 = localStorage.getItem("text10");
+    $("#textbox10").val(stored9)
+    
+        var stored11 = localStorage.getItem("text11");
+    $("#textbox11").val(stored11)
+  
+        var stored12 = localStorage.getItem("text12");
+    $("#textbox12").val(stored12)
+ 
+        var stored13 = localStorage.getItem("text13");
+    $("#textbox13").val(stored13)
+
+        var stored14 = localStorage.getItem("text14");
+    $("#textbox14").val(stored14)
+   
+        var stored15 = localStorage.getItem("text15");
+    $("#textbox15").val(stored15)
+    
+        var stored16 = localStorage.getItem("text16");
+    $("#textbox16").val(stored16)
+    
+        var stored17 = localStorage.getItem("text17");
+    $("#textbox17").val(stored17)
+    
 });
-$("#textbox10").on("load", function(){
-    var stored10 = localStorage.getItem("text10");
-$("#textbox10").text(stored9)
-});
-$("#textbox11").on("load", function(){
-    var stored11 = localStorage.getItem("text11");
-$("#textbox11").text(stored11)
-});
-$("#textbox12").on("load", function(){
-    var stored12 = localStorage.getItem("text12");
-$("#textbox12").text(stored12)
-});
-$("#textbox13").on("load", function(){
-    var stored13 = localStorage.getItem("text13");
-$("#textbox13").text(stored13)
-});
-$("#textbox14").on("load", function(){
-    var stored14 = localStorage.getItem("text14");
-$("#textbox14").text(stored14)
-});
-$("#textbox15").on("load", function(){
-    var stored15 = localStorage.getItem("text15");
-$("#textbox15").text(stored15)
-});
-$("#textbox16").on("load", function(){
-    var stored16 = localStorage.getItem("text16");
-$("#textbox16").text(stored16)
-});
-$("#textbox17").on("load", function(){
-    var stored17 = localStorage.getItem("text17");
-$("#textbox17").text(stored17)
-});
+
