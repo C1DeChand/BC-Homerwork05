@@ -8,3 +8,6 @@
  2. Click the save button to keep the reminder.
  3. As time progresses the background color of the time slots will change depending on the current hour.
  4. To clear a reminder, simple erase it and hit the save button.
+
+ ## Link:
+ https://c1dechand.github.io/BC-Homerwork05/
